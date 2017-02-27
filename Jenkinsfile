@@ -4,7 +4,7 @@ pipeline {
     }
 
     environment {
-      MAVEN_OPTS = "-Xmx1024m"
+      MAVEN_OPTS = "-Xmx1024m -DsocksProxyHost=135.7.146.1 -DsocksProxyPort=8000"
     }
 
     stages {
